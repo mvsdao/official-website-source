@@ -1,0 +1,25 @@
+const mynft = {
+  'mynft.title': 'My NFT',
+  'mynft.title.vice': 'Now Own',
+  'mynft.title.vice.unit': 'per',
+  'mynft.title.vice2': 'Now can be for sale',
+  'mynft.title.vice2.unit': 'per Goal King NFT',
+  'mynft.title.vice3': 'Now Available for Sale',
+  'mynft.title.vice3.unit': 'per Goal King NFT',
+  'mynft.sell.btn': 'Sell',
+  'mynft.sell.modal.title': 'NFT Resource Sale',
+  'mynft.sell.modal.input.title': 'Sale Price',
+  'mynft.sell.modal.input.title2': 'No less than {{msg}} {{uint}}',
+  'mynft.sell.modal.input.placeholder': 'Please Enter',
+  'mynft.sell.btn.success': 'Sell Success',
+  'mynft.sell.cancel': 'Cancel',
+  'mynft.exchange.btn': 'Exchange',
+  'mynft.receive.btn': 'Receive Assets',
+  'mynft.receive.btn.success': 'Receive Success',
+  'mynft.message.tips': 'Selling price cannot be blank',
+  'mynft.message.tips1': 'The selling price must be greater than or equal to {{msg}} and rounded to the nearest millionth',
+  'mynft.message.tips2': 'Sell Success',
+  'mynft.message.tips3': 'Cancel Success',
+}
+
+export default mynft

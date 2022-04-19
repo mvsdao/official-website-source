@@ -1,0 +1,537 @@
+@import '~antd/lib/style/themes/default.less';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.ant-message {
+  top: 0;
+}
+.message-global {
+  top: 0;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  min-height: 3.75rem;
+  background: rgba(52, 70, 234, 0.7);
+  box-shadow: 0 0.19rem 0.38rem -0.25rem rgb(0 0 0 / 12%), 0 0.38rem 1rem 0 rgb(0 0 0 / 8%), 0 0.56rem 1.75rem 0.5rem rgb(0 0 0 / 5%);
+  .ant-message-notice-content {
+    box-shadow: none;
+    background: transparent;
+    font-weight: 400;
+    color: #fff;
+  }
+}
+
+.loadings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 8.75rem;
+}
+
+.no-chainId-tips {
+  background-color: #4293fe;
+}
+
+.gray {
+  color: #8c8c8c !important;
+}
+
+.login-form {
+  width: 80%;
+  margin-left: 10%;
+  padding: 80px 0 20px 0;
+}
+
+.language-move {
+  box-shadow: @shadow-2;
+}
+
+.loading-wrapper {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 1;
+}
+
+.bjLogo {
+  width: 2.13rem;
+  height: 2.13rem;
+  margin-left: 0.63rem;
+}
+
+.modal-mask {
+  .modal-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.81rem 0 2.5rem 0;
+    width: 100%;
+  }
+  .choose-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .choos-span {
+    width: 15rem;
+    height: 4.25rem;
+    background: #ffffff;
+    border: 1px solid #2f303b;
+    border-radius: 2.13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2f303b;
+    &:hover {
+      border: 1px solid @theme;
+      color: @theme;
+    }
+  }
+  .input-title {
+    margin: 0 6.38rem;
+    width: calc(100% - 12.76rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.88rem;
+    @media screen and (max-width: @screen-lg) {
+      margin: 0 3.88rem;
+      width: calc(100% - 7.76rem);
+    }
+  }
+  .input-titles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.88rem;
+  }
+  .pledge-content {
+    width: calc(100% - 3.13rem);
+    margin-left: 1.56rem;
+    margin-top: 1.56rem;
+  }
+}
+
+.drawer-mask {
+  .ant-drawer-content {
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+}
+
+.drawer-account {
+  .ant-drawer-content {
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  .ant-drawer-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .drawer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    a {
+      color: #2f303b;
+      font-size: 2rem;
+      font-weight: 400;
+      &:hover {
+        color: #2f303b;
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      margin-bottom: 4.5rem;
+    }
+  }
+}
+
+.drawer-trading {
+  .ant-drawer-content {
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  .ant-drawer-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.menu-h5-drawer {
+  .ant-drawer-body {
+    padding: 0;
+  }
+  .menu-h5-drawer-content {
+    height: 5rem;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    .logo {
+      width: 13.44rem;
+    }
+  }
+  .h5-menu-drawer-navlink {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.88rem;
+  }
+}
+
+.connect-wallet-shop {
+  width: 100% !important;
+}
+
+/** btn */
+
+.my-home-btn-3 {
+  width: 100% !important;
+}
+
+.no-network-btns {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 1.25rem;
+  color: @theme;
+  border-color: #fff;
+  border-radius: 1.81rem;
+  &:hover,
+  &:focus {
+    border-color: #fff;
+    color: @theme;
+    background: #fff;
+  }
+}
+
+.back-home-btn {
+  min-width: 11.25rem;
+  height: 3.63rem;
+  background: #ffffff;
+
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: @theme;
+  border-color: @theme;
+  border-radius: 1.81rem;
+  &:hover,
+  &:focus {
+    border-color: @theme;
+    color: #fff;
+    background: @theme;
+  }
+}
+
+.my-home-btn-2,
+.my-home-btn-3 {
+  margin-top: 3.44rem;
+  width: calc(100% - 8.75rem);
+  height: 4.25rem;
+  background: #ffffff;
+  border-color: @theme;
+  border-radius: 2.13rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: @theme;
+  &:hover,
+  &:focus {
+    border-color: @theme;
+    color: #fff;
+    background: @theme;
+  }
+}
+
+.details-btns {
+  width: 90% !important;
+  margin-left: 5% !important;
+  height: 6.88rem !important;
+  margin-top: 2rem !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+}
+
+.shop-btn-modal {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  width: 21.25rem !important;
+  margin-bottom: 1.88rem;
+  height: 5rem !important;
+}
+
+.my-home-btn-1 {
+  width: 8.13rem;
+  height: 3rem;
+  background: #ffffff;
+  border-radius: 0.31rem;
+  border-color: #e8e9ee;
+  color: #fac432;
+  font-weight: 600;
+  &:hover,
+  &:focus {
+    border-color: #e8e9ee;
+    color: #fac432;
+    background: #ffffff;
+    box-shadow: 0px 0rem 0.31rem 0rem rgba(67, 68, 82, 0.2);
+  }
+}
+
+.apply-btn {
+  margin-left: 1.25rem;
+  background: @theme;
+  color: #fff;
+  border-color: @theme;
+  margin-bottom: 2.5rem;
+  &:hover,
+  &:focus {
+    background: @theme;
+    border-color: @theme;
+    color: #ffffff;
+  }
+}
+
+.reset-btn {
+  width: calc(100% - 3rem);
+  height: 4.25rem;
+  background: @theme;
+  border-color: @theme;
+  border-radius: 0.63rem;
+  margin-top: 1.88rem;
+  margin-bottom: 1.75rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 1.5rem;
+  &:hover,
+  &:focus {
+    background: @theme;
+    border-color: @theme;
+    color: #ffffff;
+  }
+}
+
+.buy-now-btn {
+  border-color: @theme;
+  border-radius: 1.19rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: @theme;
+  &:hover,
+  &:focus {
+    background: @theme;
+    color: #ffffff;
+    border-color: @theme;
+  }
+}
+.mynft-btn-1 {
+  width: 80%;
+  border-radius: 1.19rem;
+  border-color: @theme;
+  color: @theme;
+  font-weight: 600;
+  &:hover,
+  &:focus {
+    border-color: @theme;
+    color: #fff;
+    background: @theme;
+  }
+}
+
+.mynft-btn-2 {
+  width: 80%;
+  border-radius: 1.19rem;
+  border-color: #2f303b;
+  color: #2f303b;
+  font-weight: 600;
+  &:hover,
+  &:focus {
+    border-color: #2f303b;
+    color: #fff;
+    background: #2f303b;
+  }
+}
+
+.mynft-btn-all {
+  width: 80%;
+  border-radius: 1.19rem;
+  border-color: #c0c3da;
+  color: #c0c3da;
+  font-weight: 600;
+  &:hover,
+  &:focus {
+    border-color: #c0c3da;
+    color: #c0c3da;
+  }
+}
+
+/** end */
+
+video::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+
+input {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+input:focus {
+  border: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: @screen-md) {
+  .login-form {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .sells {
+    margin-bottom: 0.63rem;
+  }
+}
+
+@media screen and (max-width: @screen-sm) {
+  .login-form {
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px 0 10px 0;
+  }
+}
+@media screen and (max-width: @screen-lg) {
+  .my-home-btn-2 {
+    width: calc(100% - 3.75rem);
+  }
+}
+
+.menuItemCus {
+  padding: 0 0.63rem !important;
+  background-color: transparent !important;
+  &::after {
+    content: none !important;
+  }
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  content: none !important;
+}
+
+.iconss {
+  font-size: 3rem;
+  color: #373842;
+  cursor: pointer;
+  margin-left: 0.75rem;
+}
+
+.h5-drawer {
+  .ant-drawer-body {
+    padding: 0 0.63rem 0 0.63rem;
+  }
+  .tabbar-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .tabbar-left {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.choose-info {
+  border-radius: @border-radius-base;
+  .choose-icon {
+    font-size: 1rem;
+    color: @theme !important;
+    position: absolute;
+    bottom: calc(1.88rem + 1.25rem);
+    right: calc(50% - 1.88rem);
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    @media screen and (max-width: @screen-md) {
+      width: 1.88rem;
+      height: 1.88rem;
+      font-size: 1.5rem;
+      right: calc(50% - 2.88rem);
+    }
+  }
+}
+
+.ant-pagination-item-active a,
+.ant-pagination-item-active a:hover {
+  color: #fac432 !important;
+}
+
+.ant-pagination-item-active {
+  border-color: #fac432 !important;
+  color: #fac432;
+}
+.ant-pagination-item-active:focus-visible,
+.ant-pagination-item-active:hover {
+  border-color: #fac432 !important;
+}
+.ant-pagination-item:hover,
+.ant-pagination-item a:hover {
+  color: #fac432 !important;
+  border-color: #fac432 !important;
+}
+
+.ant-pagination-prev:focus-visible .ant-pagination-item-link,
+.ant-pagination-next:focus-visible .ant-pagination-item-link,
+.ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination-next:hover .ant-pagination-item-link {
+  color: #fac432;
+  border-color: #fac432;
+}
+
+.no-control {
+  border-radius: 1.5rem;
+  background: #fbfbfd;
+  @media screen and (max-width: @screen-lg) {
+    background: #f5f5f5;
+  }
+}
+
+.wallet-login-icon-h5 {
+  background: #f5f5f5;
+  border-radius: 0.31rem;
+  line-height: 2.38rem;
+  padding: 0 0.63rem;
+  border: none;
+  span {
+    margin-right: 0 !important;
+  }
+  margin-right: 0;
+  height: 3.38rem;
+  font-size: 1rem;
+  min-width: 3.25rem;
+  img {
+    width: 2.38rem;
+  }
+}
