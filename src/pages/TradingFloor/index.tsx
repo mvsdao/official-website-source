@@ -124,7 +124,7 @@ export default memo(function TradingFloorPage(props: any) {
             className: 'message-global',
           })
           setTimeout(() => {
-            history.replace('/market')
+            history.replace('/trading')
           }, 500)
           return false
         }
@@ -380,7 +380,7 @@ export default memo(function TradingFloorPage(props: any) {
             <Col span={24} lg={isShow ? 20 : 23} md={isShow ? 18 : 22}>
               <TradingFloorTitle active={isShow}>
                 <Title>
-                  <Link to={'/market'}>{t('trade.title')}</Link>
+                  <Link to={'/trading'}>{t('trade.title')}</Link>
                 </Title>
                 <TitlteRight>
                   {priceNumStatus && (
@@ -463,7 +463,7 @@ export default memo(function TradingFloorPage(props: any) {
                                 details={item}
                                 keys="tradingFloor"
                                 returnRefreshData={() => {}}
-                                returnClick={(s) => history.replace(`/market?key=${s.serialNumber}`)}
+                                returnClick={(s) => history.replace(`/trading?key=${s.serialNumber}`)}
                                 returnBuyClcik={(s) => buyClcik(s)}
                               />
                             </div>
@@ -579,7 +579,7 @@ export default memo(function TradingFloorPage(props: any) {
                   setCurrentStatus('list')
                   setCurrentDetails(currentDetailsInit)
                   setCurent(1)
-                  history.replace('/market')
+                  history.replace('/trading')
                 }}
               >
                 {t('trade.title')}

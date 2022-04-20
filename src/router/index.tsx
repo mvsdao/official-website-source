@@ -32,12 +32,12 @@ const Router: RouteConfig[] = [
         component: Nft,
       },
       {
-        path: '/blindbox',
+        path: '/foundry',
         exact: true,
         component: Shop,
       },
       {
-        path: '/market',
+        path: '/trading',
         exact: true,
         component: TradingFloor,
       },

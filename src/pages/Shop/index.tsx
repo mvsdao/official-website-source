@@ -116,7 +116,7 @@ export default memo(function ShopPage() {
     <ShopWrapper>
       <ShopTitle>
         <Title>
-          <Link to={'/blindbox'}>{t('shop.title')}</Link>
+          <Link to={'/foundry'}>{t('shop.title')}</Link>
         </Title>
       </ShopTitle>
       <div className="content-shop" style={{ marginBottom: '5.44rem' }}>

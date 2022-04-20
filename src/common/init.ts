@@ -3,8 +3,8 @@ import type { MenuListType as ListType } from '@/common/data.d'
 export const setListInfoSwitch = () => {
   let list: ListType[] = [
     { name: 'NFT', key: '1', index: 1, url: '/ballnft', enName: 'NFT' },
-    { name: 'Blind Box', key: '2', index: 2, url: '/blindbox', enName: 'Blind Box' },
-    { name: 'Market', key: '3', index: 3, url: '/market', enName: 'Market' },
+    { name: 'Foundry', key: '2', index: 2, url: '/foundry', enName: 'Foundry' },
+    { name: 'NFT Trading planet', key: '3', index: 3, url: '/trading', enName: 'NFT Trading planet' },
     { name: 'Space＆Time Bank', key: '4', index: 4, url: '/treasury', enName: 'Space＆Time Bank' },
     { name: 'Governance', key: '5', index: 5, url: '/governance', enName: 'Governance' },
     { name: 'About', key: '6', index: 6, url: '/home#about', enName: 'About' },

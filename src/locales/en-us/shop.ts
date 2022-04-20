@@ -1,5 +1,5 @@
 const shop = {
-  'shop.title': 'Blind Box',
+  'shop.title': 'Foundry',
   'shop.vice.title': 'Detail',
   'shop.vice.title.list1': 'Address',
   'shop.vice.title.list2': 'Standard',
@@ -18,7 +18,7 @@ const shop = {
   'shop.modal.btn2': 'Continue to Purchase',
   'shop.message.tip1': 'Insufficient {{uint}} in Account',
   'shop.buy.success': 'Buy Success',
-  'shop.init.title': 'NFT Blind Box Resources',
+  'shop.init.title': 'NFT Foundry Resources',
 }
 
 export default shop

@@ -7,7 +7,7 @@ const home = {
   'home.about.title': 'About',
   'home.about.list.1': 'MetaDao goes from unknown to unknown.',
   'home.about.list.2':
-    'The future has come, NFT will become the carrier of the strongest IP in this era, and Tiangu Trading Planet will bring an extraordinary NFT feast to human beings. Imagination has no boundaries and exploration has no limits!',
+    'The future has come, NFT will become the carrier of the strongest IP in this era, and Tengu Trading Planet will bring an extraordinary NFT feast to human beings. Imagination has no boundaries and exploration has no limits!',
   'home.about.list.3': 'Discover, collect and create new real worlds of extraordinary NFTs together.',
 
   'home.open.tips': 'version updating... please wait on',

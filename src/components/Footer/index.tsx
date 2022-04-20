@@ -177,10 +177,10 @@ export default memo(function FooterPages() {
             <StyledNavLink to="/ballnft">
               <span>{t('menu.nft')}</span>
             </StyledNavLink>
-            <StyledNavLink to="/blindbox">
+            <StyledNavLink to="/foundry">
               <span>{t('menu.shop')}</span>
             </StyledNavLink>
-            <StyledNavLink to="/market">
+            <StyledNavLink to="/trading">
               <span>{t('menu.trade')}</span>
             </StyledNavLink>
             <StyledNavLink to="/governance">
@@ -193,7 +193,7 @@ export default memo(function FooterPages() {
           </div>
           <div className="border-left"></div>
           <MenuListInfo>
-            <StyledNavLink to="/market">
+            <StyledNavLink to="/trading">
               <span>{t('menu.mvs')}</span>
             </StyledNavLink>
             <StyledNavLink to="/home#about" isActive={oddEvent}>

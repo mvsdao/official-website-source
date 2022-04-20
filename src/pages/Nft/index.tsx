@@ -184,7 +184,7 @@ export default memo(function NFTPage(props: any) {
                   >
                     {t('nft.details.open1')}
                   </Button>
-                  <Button className="my-home-btn-1 details-btns" style={{ color: '#2F303B' }} onClick={() => history.replace('/blindbox')}>
+                  <Button className="my-home-btn-1 details-btns" style={{ color: '#2F303B' }} onClick={() => history.replace('/foundry')}>
                     {t('nft.details.open2')}
                   </Button>
                 </Col>

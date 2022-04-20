@@ -1,5 +1,5 @@
 const trade = {
-  'trade.title': 'Market',
+  'trade.title': 'NFT Trading planet',
   'trade.left.title': 'Screen',
   'trade.left.reset': 'Reset',
   'trade.left.title.vice1': 'NFT Theme',
@@ -11,8 +11,8 @@ const trade = {
   'trade.details.title': 'Trade Details',
   'trade.details.theme.title': 'Current Theme: Tengu NFT',
   'trade.details.theme.hold': 'Holder',
-  'trade.details.vice.title1': 'NFT Resource Trade Rules',
-  'trade.details.vice.title2': 'Detail Introduction',
+  'trade.details.vice.title1': 'Describe',
+  'trade.details.vice.title2': 'Detail',
   'trade.details.vice.title2.list1': 'Contract Address',
   'trade.details.vice.title2.list2': 'Token Standard',
   'trade.details.vice.title2.list3': 'Blockchain',
